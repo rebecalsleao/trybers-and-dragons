@@ -1,7 +1,7 @@
 import Race from './Race';
 
 class Dwarf extends Race {
-  static _createdRacesInstances = 0;
+  private static _createdRacesInstances = 0;
   private _maxLifePoints: number;
 
   constructor(name: string, dexterity: number) {
